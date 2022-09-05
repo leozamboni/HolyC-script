@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer type="module" src="holy-script.js"></script>
+  <title>Document</title>
+</head>
+<body>
+  <main>
+    <holy-script>
+// HolyC Fibonacci
+U0
+Fibonacci()
+{
+	U32 a = 0, b = 1, c, i;
+
+	for (i = 0; i < 20; i++)
+	{
+		c = a + b;
+		"%d\n", c;
+		a = b;
+		b = c;
+	}
+}
+
+Fibonacci;
+    </holy-script>
+  </main>
+</body>
+</html>
