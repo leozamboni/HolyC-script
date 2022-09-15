@@ -1,10 +1,18 @@
-import { holy_node_script } from './holyc-interpreter/holyc-interpreter.js'
+import { holy_script } from './holyc-interpreter/holyc-interpreter.js'
 
-const holy = document.getElementsByTagName('holy-script')[0]
+const holy = document.getElementsByTagName('holy-script')
+
 const stdout = document.createElement("p");
 stdout.setAttribute('id','stdout/stderr');
-holy.append(stdout)
+stdout.style.cssText = 'border: 4mm ridge rgba(43, 106, 205, 0.61);'
 
-stdout.innerText = 'STDOUT/STDERR: ' + holy_node_script(holy.textContent)
+let stdin = ''
+for (const hs of holy) {
+  stdin += hs.textContent
+}
+
+holy[holy.length - 1].append(stdout)
+
+holy_script(stdin)
 
 
