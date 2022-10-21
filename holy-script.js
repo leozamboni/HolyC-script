@@ -1,4 +1,4 @@
-import { holy_script } from './holyjs/holy.js'
+import { holy_script } from './HolyJS/holy.js'
 
 const holy = document.getElementsByTagName('holy-script')
 
