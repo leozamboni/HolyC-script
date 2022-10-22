@@ -9,14 +9,14 @@ Holy Script is a experimental way to run HolyC in HTML.
 in a HTTP server;
 
 import the holy-script.js in your dom
-```
-<script defer type="module" src="holy-script.js"></script>
+```html
+<script defer crossorigin="anonymous" type="module" src="https://templeweb.github.io/HolyScript-0.0.1.min.js"></script>
 ```
 after use the ```<holy-script>``` tag and put the code into it
 
 # Example
 
-```HTML 
+```html 
 <html lang="en">
 	<head>
 		<script defer crossorigin="anonymous" type="module" src="https://templeweb.github.io/HolyScript-0.0.1.min.js"></script>
