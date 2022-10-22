@@ -1,3 +1,9 @@
+/**
+ * @Copyright Leonardo Z. Nunes 2022
+ * @license MIT
+ * @fileoverview HolyScript
+ * @version 0.0.1
+ */
 import { holy_script } from './HolyJS/holy.js'
 
 const holy = document.getElementsByTagName('holy-script')

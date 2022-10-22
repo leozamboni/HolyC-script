@@ -19,27 +19,27 @@ after use the ```<holy-script>``` tag and put the code into it
 ```HTML 
 <html lang="en">
 	<head>
-		<script defer type="module" src="HolyScript.min.js"></script>
+		<script defer crossorigin="anonymous" type="module" src="https://templeweb.github.io/HolyScript-0.0.1.min.js"></script>
 	</head>
 	<body>
 		<holy-script>
-			// HolyC Fibonacci
-			U0
-			Fibonacci()
-			{
-				U32 a = 0, b = 1, c, i;
+      // HolyC Fibonacci
+      U0
+      Fibonacci()
+      {
+        U32 a = 0, b = 1, c, i;
 
-				for (i = 0; i < 20; i++)
-				{
-					c = a + b;
-					"%d\n", c;
-					a = b;
-					b = c;
-				}
-			}
+        for (i = 0; i < 20; i++)
+        {
+          c = a + b;
+          "%d\n", c;
+          a = b;
+          b = c;
+        }
+      }
 
-			Fibonacci;
-		</holy-script>
-	</body>
+      Fibonacci;
+    </holy-script>
+  </body>
 </html>
 ```
