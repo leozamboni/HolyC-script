@@ -1,45 +1,53 @@
 # HolyScript
 
-Holy Script is a experimental way to run HolyC in HTML.
+HolyScript is a experimental way to run HolyC in HTML.
 
 *This is who we will build the TempleWeb in the future
 
-# Usage
+## Usage
 
-in a HTTP server;
+**Some features requires a HTTP server to work, is not recommended run HolyScript out of that.**
 
-import the holy-script.js in your dom
+Import HolyScript in your dom with the CDN link;
+
 ```html
 <script defer crossorigin="anonymous" type="module" src="https://templeweb.github.io/HolyScript-0.0.1.min.js"></script>
 ```
-after use the ```<holy-script>``` tag and put the code into it
 
-# Example
+After, use the ```<holy-script>``` tag and put the code into it.
+
+## Example
 
 ```html 
+<!DOCTYPE html>
 <html lang="en">
-	<head>
-		<script defer crossorigin="anonymous" type="module" src="https://templeweb.github.io/HolyScript-0.0.1.min.js"></script>
-	</head>
-	<body>
-		<holy-script>
-      // HolyC Fibonacci
-      U0
-      Fibonacci()
-      {
-        U32 a = 0, b = 1, c, i;
 
-        for (i = 0; i < 20; i++)
-        {
-          c = a + b;
-          "%d\n", c;
-          a = b;
-          b = c;
-        }
-      }
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script defer crossorigin="anonymous" type="module"
+    src="https://templeweb.github.io/HolyScript-0.0.1.min.js"></script>
+  <title>HolyC Fibonacci</title>
+</head>
 
-      Fibonacci;
-    </holy-script>
-  </body>
+<body>
+  <holy-script>
+  U0
+  Fibonacci()
+  {
+      U32 a = 0, b = 1, c, i;
+
+      for (i = 0; i < 20; i++) 
+      { 
+          c = a + b; 
+          "%d\n" , c; 
+          a = b; 
+          b = c; 
+      } 
+  } 
+  Fibonacci; 
+  </holy-script>
+</body>
+
 </html>
 ```
