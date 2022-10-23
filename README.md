@@ -6,7 +6,7 @@ HolyScript is a experimental way to run HolyC in HTML.
 
 ## Usage
 
-**Some features requires a HTTP server to work, is not recommended run HolyScript out of that.**
+**Is not recommended run HolyScript out of a HTTP server, some features dont will work well.**
 
 Import HolyScript in your dom with the CDN link;
 
@@ -14,7 +14,7 @@ Import HolyScript in your dom with the CDN link;
 <script defer crossorigin="anonymous" type="module" src="https://holy-js.github.io/HolyScript-0.0.1.min.js"></script>
 ```
 
-After, use the ```<holy-script>``` tag and put the code into it.
+After, use the ```<holy-script>``` to code.
 
 ## Example
 
