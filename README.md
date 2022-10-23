@@ -11,7 +11,7 @@ HolyScript is a experimental way to run HolyC in HTML.
 Import HolyScript in your dom with the CDN link;
 
 ```html
-<script defer crossorigin="anonymous" type="module" src="https://templeweb.github.io/HolyScript-0.0.1.min.js"></script>
+<script defer crossorigin="anonymous" type="module" src="https://holy-js.github.io/HolyScript-0.0.1.min.js"></script>
 ```
 
 After, use the ```<holy-script>``` tag and put the code into it.
@@ -26,7 +26,7 @@ After, use the ```<holy-script>``` tag and put the code into it.
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script defer crossorigin="anonymous" type="module"
-    src="https://templeweb.github.io/HolyScript-0.0.1.min.js"></script>
+    src="https://holy-js.github.io/HolyScript-0.0.1.min.js"></script>
   <title>HolyC Fibonacci</title>
 </head>
 
