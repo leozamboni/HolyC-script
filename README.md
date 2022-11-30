@@ -1,14 +1,12 @@
-# HolyScript
+# HolyC script
 
-HolyScript is a experimental way to run HolyC in HTML.
-
-*This is who we will build the TempleWeb in the future
+HolyC script is a experimental way to run HolyC in your HTML.
 
 ## Usage
 
 **Some features requires a HTTP server to work, is not recommended run HolyScript out of that.**
 
-Import HolyScript in your dom with the CDN link;
+Import HolyC Script in your dom with the CDN link;
 
 ```html
 <script defer crossorigin="anonymous" type="module" src="https://templeweb.github.io/HolyScript-0.0.1.min.js"></script>
