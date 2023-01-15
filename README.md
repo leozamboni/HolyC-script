@@ -13,7 +13,7 @@ Import HolyC Script in your dom with the CDN link;
   defer
   crossorigin="anonymous"
   type="module"
-  src="https://leonardo.moe/cdn/holy-script-0.0.1.min.js"
+  src="https://leonardo.moe/holyc-script/holy-script-0.0.1.min.js"
 ></script>
 ```
 
